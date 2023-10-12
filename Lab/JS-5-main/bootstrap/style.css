@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.navbar_container{
+    width: 1400px;
+   margin: auto;
+}
+header{
+    background-color: yellow;
+
+}
+.card_section{
+    display: flex;
+    justify-content: space-between;
+   
+ 
+    background-color: green;
+}
+.card_container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    gap: 30px;
+   
+    
+}
+.card-footer{
+    display: flex;
+    justify-content: end;
+}
+.myModal{
+    width: 500px;
+    height: 400px;
+    position: absolute;
+    background-color: aqua;
+ 
+}
+.myModal-container{
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.5);
+height: 100vh;
+display: none;
+top: 0;
+left: 0;
+
+justify-content: center;
+align-items: center;
+position: fixed;
+}
+
